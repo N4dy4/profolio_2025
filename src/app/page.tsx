@@ -1,11 +1,13 @@
-import Image from "next/image";
-import Link from "next/link";
+import React from "react";
+import Heading from "./components/heading";
+import AboutMe from "./components/aboutMe";
+
 
 export default function Home(){
   return (
     <main>
-      <h1>Hello world</h1>
-    <Link href="/users">Users</Link>
+      <Heading />
+      <AboutMe />
     </main>
   )
 }
